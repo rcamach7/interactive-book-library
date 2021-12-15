@@ -1,0 +1,44 @@
+html {
+    background-color: aliceblue;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#status {
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.book {
+    width: 150px;
+    height: 300px;
+
+    overflow: scroll;
+    text-align: center;
+    font-weight: bolder;
+
+    background: url("a.jpeg");
+    border: dashed black 2px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bookLine {
+    height: 50px;
+}
+
+.book p {
+    padding-bottom: 25px;
+}
