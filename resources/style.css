@@ -1,10 +1,16 @@
 html {
-    background-color: aliceblue;
+    background-color: #3c3c3c;
+    height: 100%;
 }
 
 .title {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
     text-align: center;
-    margin-bottom: 10px;
+    background: url("bookBackground.jpeg");
+    border-radius: 1%;
 }
 
 #status {
@@ -18,6 +24,7 @@ html {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .book {
