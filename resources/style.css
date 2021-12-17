@@ -1,6 +1,16 @@
 html {
-    background-color: #3c3c3c;
+    background-color: #ffffff;
+    font-family: "Lucida Grande", serif;
     height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    font-weight: bolder;
 }
 
 .title {
@@ -11,6 +21,16 @@ html {
     text-align: center;
     background: url("bookBackground.jpeg");
     border-radius: 1%;
+}
+
+#newBook {
+    background-color: #000000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 #status {
@@ -31,7 +51,6 @@ html {
     width: 150px;
     height: 300px;
 
-    overflow: scroll;
     text-align: center;
     font-weight: bolder;
 
@@ -48,4 +67,12 @@ html {
 
 .book p {
     padding-bottom: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    background: url("bookBackground.jpeg");
 }
