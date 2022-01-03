@@ -1,78 +1,104 @@
 html {
-    background-color: #ffffff;
-    font-family: "Lucida Grande", serif;
-    height: 100%;
+	background-color: #ffffff;
+	font-family: "Courier New", serif;
+	height: 100%;
 }
 
 body {
-    margin: 0 auto;
-    text-align: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 label {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 
 .title {
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 10px;
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 10px;
 
-    text-align: center;
-    background: url("bookBackground.jpeg");
-    border-radius: 1%;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 1%;
+
+	border-bottom: dashed black 2px;
+}
+
+.title h1 {
+	margin: 0px;
+	padding-bottom: 5px;
 }
 
 #newBook {
-    background-color: #000000;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+	background-color: #000000;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
 }
 
 #status {
-    text-align: center;
-    color: red;
-    margin-top: 50px;
+	text-align: center;
+	color: red;
+	margin-top: 50px;
 }
 
 #root {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 20px;
 }
 
+/* Book Properties */
 .book {
-    width: 150px;
-    height: 300px;
+	width: 150px;
+	height: 300px;
 
-    text-align: center;
-    font-weight: bolder;
+	box-sizing: border-box;
+	padding-bottom: 5px;
 
-    background: url("bookBackground.jpeg");
-    border: dashed black 2px;
+	text-align: center;
+	font-weight: bolder;
 
-    display: flex;
-    flex-direction: column;
+	background: url("bookBackground.jpeg");
+	border: dashed black 2px;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+
+	border-radius: 10px;
 }
 
 .bookLine {
-    height: 50px;
+	height: 50px;
 }
 
-.book p {
-    padding-bottom: 25px;
+.book-btn {
+	align-self: stretch;
+	border-radius: 5px;
+}
+
+.addBookContainer {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+
+#submitNewBook {
+	display: none;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 0 auto;
-    background: url("bookBackground.jpeg");
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	background: url("bookBackground.jpeg");
 }
